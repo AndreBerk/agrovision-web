@@ -1,9 +1,13 @@
 import './globals.css'
 import Navbar from '@/components/Navbar' // <--- 1. Importa aqui
+<link rel="manifest" href="/manifest.json" />
 
 export const metadata = {
-  title: 'AgroVision Web',
-  description: 'Diagnóstico de plantas com IA',
+  title: 'AgroVision | Diagnóstico Inteligente',
+  description: 'Detecção de pragas agrícolas com Inteligência Artificial.',
+  icons: {
+    icon: '/favicon.ico',
+  },
 }
 
 export default function RootLayout({ children }) {
